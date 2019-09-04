@@ -6,6 +6,7 @@ const message = document.getElementById("message");
 const statusElm = document.getElementById("status"); 
 const form = document.getElementById("form")
 
+
 var validate_form = (()=>{
 
     if(uname.value.length < 4){
